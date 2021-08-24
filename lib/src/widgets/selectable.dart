@@ -561,6 +561,27 @@ class InternalSelectableMathState extends State<InternalSelectableMath>
   @override
   void userUpdateTextEditingValue(
       TextEditingValue value, SelectionChangedCause cause) {}
+
+  @override
+  void copySelection(SelectionChangedCause cause) {
+    // My project doesn't use SelectableMath, so I haven't implemented this.
+  }
+
+  @override
+  void cutSelection(SelectionChangedCause cause) {
+    // My project doesn't use SelectableMath, so I haven't implemented this.
+  }
+
+  @override
+  Future<void> pasteText(SelectionChangedCause cause) {
+    // My project doesn't use SelectableMath, so I haven't implemented this.
+    throw UnimplementedError();
+  }
+
+  @override
+  void selectAll(SelectionChangedCause cause) {
+    // My project doesn't use SelectableMath, so I haven't implemented this.
+  }
 }
 
 class SelectionStyle {
